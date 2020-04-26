@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 repo := ruby
-tags := 2.7 2.6 slim 2.7-slim 2.6-slim
+tags := 2.7 slim 2.7-slim
 
 define build_git_branch
 	git checkout master
