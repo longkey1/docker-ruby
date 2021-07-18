@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:slim
 
 # Fix frontend not set error
 ARG DEBIAN_FRONTEND=noninteractive
